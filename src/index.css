@@ -75,6 +75,7 @@ input {
 .add-form button {
   text-transform: uppercase;
   background-color: #76c7ad;
+  
 }
 
 .list {
@@ -146,6 +147,10 @@ input[type="checkbox"] {
     word-spacing: 20px;
     letter-spacing: -3px;
   }
+  h3 {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+  }
 }
 
 /* Para pantallas pequeñas (móviles) */
@@ -156,6 +161,11 @@ input[type="checkbox"] {
     word-spacing: 15px;
     letter-spacing: -2px;
   }
+  h3 {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+  }
 }
 
 /* Para pantallas muy pequeñas (móviles pequeños) */
@@ -165,5 +175,10 @@ input[type="checkbox"] {
     padding: 1rem 0;
     word-spacing: 10px;
     letter-spacing: -1px;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
   }
 }
